@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 109, 129)
+}
+
+.main {
+    background-color: rgb(77, 84, 111);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgb(70, 69, 99);
+    border-style: solid;
+    border-color: rgb(60, 66, 86);
+    border-width: 1px;
+    padding: 20px;
+}
+
+.main h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    color: rgb(26, 26, 71);
+
+}
+
+#inputcontainer {
+    width: 350px;
+    height: 200px;
+    background-color: aliceblue;
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(61, 73, 111);
+}
+
+#input {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: arial;
+    width: 330px;
+    height: 185px;
+    scrollbar-width: none;
+    background: none;
+    border: none;
+    resize: none;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#playspeech {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(44, 103, 166);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(61, 73, 111);
+
+}
+
+#playspeech:focus {
+    outline: none;
+}
+
+#playspeech:active {
+    background-color: rgb(79, 125, 175);
+    color: rgb(209, 206, 206);
+}
